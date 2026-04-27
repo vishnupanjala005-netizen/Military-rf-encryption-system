@@ -1,2 +1,4 @@
 # Military-rf-encryption-system
 RF-based wireless encryption and decryption system for secure military communication.
+## 📷 Hardware Setup
+![Hardware Setup](hardware-setup.png)

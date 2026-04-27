@@ -11,8 +11,7 @@ This project implements a secure RF communication system where data is encrypted
 ---
 
 ##  Hardware Setup
-![Circuit Diagram](hardware-setup.png)
-
+![Circuit Diagram](circuit-diagram.png)
 ---
 
 ##  Components Used

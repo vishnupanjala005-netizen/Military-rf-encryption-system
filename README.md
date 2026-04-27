@@ -13,6 +13,7 @@ This project implements a secure RF communication system where data is encrypted
 ##  Hardware Setup
 
 ![Hardware Setup](hardware-setup.png)
+Figure 1: Hardware connections of transmitter and receiver
 ---
 
 ##  Components Used
@@ -60,6 +61,7 @@ This project implements a secure RF communication system where data is encrypted
 
 ## Circuit Diagram
 ![Circuit Diagram](circuit-diagram.png)
+Figure 2: Complete circuit diagram of RF communication system*
 ---
 
 ## Author

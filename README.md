@@ -58,7 +58,6 @@ This project implements a secure RF communication system where data is encrypted
 ---
 
 ## Circuit Diagram
-
 ![Circuit Diagram](circuit-diagram.png)
 
 ---

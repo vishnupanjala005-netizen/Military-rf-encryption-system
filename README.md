@@ -1,55 +1,69 @@
 
-# Military RF Encryption System
+# Secure RF Communication System using Encryption (Arduino)
 
-RF-based wireless encryption and decryption system for secure military communication.
+RF-based wireless encryption and decryption system for secure data transmission using Arduino UNO and RF modules.
 
----
-
-## Hardware Setup
-  ![Hardware Setup](hardware-setup.png)
 ---
 
 ## Project Overview
-This project implements a secure RF communication system using encryption techniques to transmit data safely between devices. It ensures that transmitted information cannot be easily intercepted or decoded by unauthorized users.
+This project implements a secure RF communication system where data is encrypted before transmission and decrypted at the receiver side. It ensures that transmitted information cannot be easily intercepted or understood by unauthorized users.
 
 ---
 
-## Components Used
+##  Hardware Setup
+![Hardware Setup](hardware-setup.png)
+
+---
+
+##  Components Used
 - Arduino UNO
-- RF Transmitter & Receiver module
+- RF Transmitter & Receiver (433 MHz)
 - LCD Display (16x2)
 - Encoder/Decoder IC
-- Push buttons
-- Power supply (9V battery)
-- Connecting wires
+- Push Buttons
+- 9V Battery / Power Supply
+- Connecting Wires
 
 ---
 
-## Working Principle
-1. Input data is given using switches/buttons  
-2. Data is encrypted using encoder  
-3. Encrypted signal is transmitted via RF module  
-4. Receiver captures the signal  
-5. Data is decrypted using decoder  
-6. Output is displayed on LCD  
+##  Working Principle
+1. User inputs data using buttons
+2. Data is encrypted using XOR technique
+3. Encrypted data is transmitted via RF module
+4. Receiver captures the signal
+5. Data is decrypted using same key
+6. Output is displayed on LCD
 
 ---
 
-## Applications
-- Military secure communication  
-- Wireless data transmission  
-- Remote control systems  
-- IoT security systems  
+##  Code Files
+- `Transmitter.ino` → Handles encryption & transmission
+- `Receiver.ino` → Handles reception & decryption
+
+---
+
+##  Applications
+- Military secure communication
+- Wireless data transmission
+- Remote control systems
+- IoT security systems
 
 ---
 
 ## Future Improvements
-- Add advanced encryption (AES)
+- Implement AES encryption (advanced security)
 - Increase communication range
-- Integrate with mobile app
-- Add real-time monitoring system  
+- Add mobile app integration
+- Real-time monitoring system
+
+---
+
+## Circuit Diagram
+(Add your circuit diagram image here)
 
 ---
 
 ## Author
 **Paramesh Panjala**
+
+---

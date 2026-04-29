@@ -1,5 +1,5 @@
 
-# Secure RF Communication System using Encryption (Arduino)
+# Secure RF Communication System with Basic Encryption for Defense Applications
 
 RF-based wireless encryption and decryption system for secure data transmission using Arduino UNO and RF modules.
 
